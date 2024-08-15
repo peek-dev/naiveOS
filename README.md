@@ -3,7 +3,7 @@
 This is a father-son project between Robert Karhnak (father) and Paul Karhnak
 (son). The name for skylOS comes from [Byzantine/Koine Greek for
 "dog"](https://en.wiktionary.org/wiki/σκύλος#Greek), and is dedicated to
-various wonderful dogs we've had over the years: Hannah, Rosa, Gibbs, Jose, and
+various wonderful dogs we've had over the years: Hannah, Rosa, Gibbs, José, and
 Paco.
 
 skylOS is inspired by Linux and developed in a Linux build environment.
