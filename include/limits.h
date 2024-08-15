@@ -61,4 +61,19 @@
 #define SIZE_MAX ULONG_MAX
 #endif
 
+/* Define type widths in bits based on 64-bit target */
+#ifndef CHAR_WIDTH
+#define CHAR_WIDTH 8
+#endif
+
+#define SCHAR_WIDTH CHAR_WIDTH
+#define UCHAR_WIDTH CHAR_WIDTH
+
+#ifndef SHORT_WIDTH
+#define SHORT_WIDTH 16
+#endif
+
+#define USHORT_WIDTH SHORT_WIDTH
+
+
 #endif

@@ -21,19 +21,15 @@ a copy of the GCC Runtime Library Exception along with this program;
 see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
 <http://www.gnu.org/licenses/>.  */
 
-/* ISO C1X: 7.15 Alignment <stdalign.h>.  */
+/* ISO C1X: 7.23 _Noreturn <stdnoreturn.h>.  */
 
-#ifndef _STDALIGN_H
-#define _STDALIGN_H
+#ifndef _STDNORETURN_H
+#define _STDNORETURN_H
 
 #ifndef __cplusplus
 
-#define alignas _Alignas
-#define alignof _Alignof
-
-#define __alignas_is_defined 1
-#define __alignof_is_defined 1
+#define noreturn _Noreturn
 
 #endif
 
-#endif	/* stdalign.h */
+#endif	/* stdnoreturn.h */
